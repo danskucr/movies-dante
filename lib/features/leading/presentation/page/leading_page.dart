@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies_ducr/features/leading/presentation/widgets/bottom_navigation_bar.dart';
 
 class LeadingPage extends StatefulWidget {
   const LeadingPage({super.key});
@@ -32,7 +33,8 @@ class _LeadingPageState extends State<LeadingPage> {
         onPressed: (){},
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), 
+      ),
+      bottomNavigationBar: MoviesBottomNavigationBar(posicion: 0), 
     );
   }
 }
