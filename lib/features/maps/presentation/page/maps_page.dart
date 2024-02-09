@@ -11,9 +11,6 @@ class MapsPage extends StatefulWidget {
 class _MapsPageState extends State<MapsPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Text('MAPS'),
-      bottomNavigationBar: MoviesBottomNavigationBar(posicion: 2),
-    );
+    return Text('MAPS');
   }
 }
