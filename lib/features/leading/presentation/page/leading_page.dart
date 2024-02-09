@@ -26,15 +26,10 @@ class _LeadingPageState extends State<LeadingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('LOL'),
+        title: const Text('Peliculas'),
       ),
       body: Center(
         child: _widgetOptions.elementAt(position),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){},
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
       ),
       bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem>[
       BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
